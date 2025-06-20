@@ -58,7 +58,7 @@ Error generating stack: `+e.message+`
   flex-direction: column;
   align-items: center;
   margin: auto;
-  width: 80%;
+  width: 120rem;
   background-color: #faf1f2;
 `,ey=zl`
   display: flex;

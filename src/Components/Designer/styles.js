@@ -7,6 +7,7 @@ export const container = css`
   margin: auto;
   width: 120rem;
   background-color: #faf1f2;
+  padding-top: 5rem;
 `;
 
 export const header = css`

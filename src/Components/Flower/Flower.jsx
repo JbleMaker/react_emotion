@@ -50,6 +50,74 @@ function Flower(props) {
           </div>
         </div>
       </main>
+
+      <main css={s.ourServices}>
+        <div>
+          <div css={s.ourServiceTitle}>
+            <span>THIS IS WHAT WE DO</span>
+            <span>Our Services</span>
+          </div>
+        </div>
+
+        <div css={s.productContainer}>
+          <div css={s.productBox}>
+            <div>
+              <img
+                css={s.productImg}
+                src="https://beautynury.com/data/editor/sSBf9f4tE2o.jpg"
+                alt=""
+              />
+            </div>
+            <div css={s.productContents}>
+              <h1>Custom Bouquets</h1>
+              <div>
+                <span>Do you have an acquired taste? From </span>
+                <span>your favourite flowers to the rarest </span>
+                <span>hidden secrets, we have what you need.</span>
+              </div>
+              <button>READ MORE</button>
+            </div>
+          </div>
+
+          <div css={s.productBox}>
+            <div>
+              <img
+                css={s.productImg}
+                src="https://beautynury.com/data/editor/sSBf9f4tE2o.jpg"
+                alt=""
+              />
+            </div>
+            <div css={s.productContents}>
+              <h1>Occasion Flowers</h1>
+              <div>
+                <span>Favourite flowers for your special day or</span>
+                <span>the perfect decoration for your next</span>
+                <span>business event.</span>
+              </div>
+              <span>READ MORE</span>
+            </div>
+          </div>
+
+          <div css={s.productBox}>
+            <div>
+              <img
+                css={s.productImg}
+                src="https://beautynury.com/data/editor/sSBf9f4tE2o.jpg"
+                alt=""
+              />
+            </div>
+            <div css={s.productContents}>
+              <h1>Premade Bouquets</h1>
+              <div>
+                <span>Our florists are passionate about</span>
+                <span>creating the most beautiful</span>
+                <span>combinations of selected dried flowers.</span>
+              </div>
+              <span>READ MORE</span>
+            </div>
+          </div>
+        </div>
+      </main>
     </>
   );
 }
